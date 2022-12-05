@@ -2,8 +2,8 @@
  
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FFFFFF&size=30&center=true&vCenter=true&width=1300&lines=Olá,+Seja+bem+vindo+!!;Meu+nome+é+Lucelho+Cristiano;Volte+sempre+✌️)](https://git.io/typing-svg)
 <div align="center">
-<img height="130" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=dark"/>
-<img height="130" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=dark"/>
+<img height="140" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=dark"/>
+<img height="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=dark"/>
 
 </p>
 <div style="display: inline_block">
