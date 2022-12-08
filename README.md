@@ -1,9 +1,8 @@
 <img align="right" height="580cm" src="https://raw.githubusercontent.com/gist/LucelhoCristiano/df9d81949eea719ae943b787cfe1b4b8/raw/68d14ab5cfe10c739ac885f0dcbef0166b5a81b3/githubcard.svg"/>
-<img width=50% src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=header"/>
 
 <div align="left">
-<img height="120" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=dark"/>
-<img height="120" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=dark"/>
+<img height="115" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=dark"/>
+<img height="115" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=dark"/>
 
 </p>
 <div style="display: inline_block">
@@ -40,6 +39,3 @@
 
 </p>
 <img src="https://komarev.com/ghpvc/?username=lucelhocristiano&color=blue" alt="Profile views" />
-<br>
-
-<img width=50% src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=footer"/>
