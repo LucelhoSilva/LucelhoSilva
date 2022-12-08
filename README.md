@@ -1,40 +1,26 @@
-<img align="right" height="580cm" src="https://raw.githubusercontent.com/gist/LucelhoCristiano/df9d81949eea719ae943b787cfe1b4b8/raw/68d14ab5cfe10c739ac885f0dcbef0166b5a81b3/githubcard.svg"/>
-<h1 align= left>
-<img height="115" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=dark"/>
-<img height="115" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=dark"/></h1>
+<img align="right" height="580cm" src="https://gist.githubusercontent.com/LucelhoCristiano/df9d81949eea719ae943b787cfe1b4b8/raw/e0e96984213cb159432a496597275cae1af9423b/githubcard.svg"/>
+<h1 align= left>Hi guys <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px">, I'm Lucelho</h1>
 
-</p>
-<div style="display: inline_block">
-<div align="left">
-<img align="center" alt="Lucelho-Java" height="45" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
-<img align="center" alt="Lucelho-Js" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-<img align="center" alt="Lucelho-HTML" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
-<img align="center" alt="Lucelho-CSS" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-</p>
+- 👨‍💻 currently studying computer science at UNA university.
 
-<div align="left">
+- 🔥 Studying Full Stack Java (EBAC).
 
-### _**Contato**_
+- 🌎 I participate as an instructor in the FavelaWare Project, an initiative aimed at training young programmers, 15 to 22 years.<a href="https://favelaware.animahub.com.br/sobre"> Click Here</a>
 
-<a href="https://www.linkedin.com/in/lucelho-cristiano-b17196239" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/-LucelhoCristiano-0077B5?style=flat&logo=linkedin" alt="Linkedin"/>
-</a>
-<a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNvwDlxBSwvBFBBrBfWTRLxMfDbvbBWvZXpmhcfjmmZrZKlKTSLrPkSJlVHpvHkDzCkPFL" target="_blank">
- <img align="center" src="https://img.shields.io/badge/-lucelhoCristiano-D14836?style=flat&logo=gmail&logoColor=white" 
- alt="Gmail"/>
-</a>
-<a href="https://contate.me/lucelho" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/-LucelhoCristiano-25D366??style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp"/>  
-</a>
-<a href="https://www.instagram.com/lucelhosilva" target="_blank">
- <img align="center" src="https://img.shields.io/badge/-LucelhoCristiano-E4405F?style=flat&logo=instagram&logoColor=white" alt="instagram"/>
-</a>
-</p>
+- 🚀 Curious facts about me: I love listening to music
 
+- 🧮 I participate in the GELP community (Group of Studies in Logic Programming) <a href="https://www.instagram.com/gelpunacm">Click Here </a>
 
-#### _Apenas mais um louco apaixonado por tecnologia_ !!<img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/zany-face_1f92a.png" height="20px"><img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/face-with-tears-of-joy_1f602.png" height="20">
+- 📊 I am very communicative, I find it easy to learn new things, I love solving problems, I work very well in groups.
 
-##### _"Mas para quem tem o pensamento forte o impossivel é so questão de opinião"_
+<br><br>
 
-</p>
-<img src="https://komarev.com/ghpvc/?username=lucelhocristiano&color=blue" alt="Profile views" />
+<h2 align="left"> Technologies and Tools: <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/man-technologist_1f468-200d-1f4bb.png" width="50px"> </h2>
+
+<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" title = "Java"/></code>
+<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" title = "HTML5"/></code>
+<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" title = "CSS3"/></code>
+<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title = "JAVASCRIPT"/></code>
+<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title = "GIT"/></code>
+<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" title = "GITHUB"/></code>
+<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" title = "Visual Studio Code"/></code>
