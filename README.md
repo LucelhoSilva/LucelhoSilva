@@ -1,20 +1,20 @@
 <img align="right" height="580cm" src="https://raw.githubusercontent.com/gist/LucelhoCristiano/df9d81949eea719ae943b787cfe1b4b8/raw/68d14ab5cfe10c739ac885f0dcbef0166b5a81b3/githubcard.svg"/>
-<img width=60% src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=header"/>
+<img width=50% src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=header"/>
 
-<div align="center">
+<div align="left">
 <img height="120" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=dark"/>
 <img height="120" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=dark"/>
 
 </p>
 <div style="display: inline_block">
-<div align="center">
+<div align="left">
 <img align="center" alt="Lucelho-Java" height="45" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
 <img align="center" alt="Lucelho-Js" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 <img align="center" alt="Lucelho-HTML" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
 <img align="center" alt="Lucelho-CSS" height="35" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
 </p>
 
-<div align="center">
+<div align="left">
 
 ### _**Contato**_
 
@@ -42,4 +42,4 @@
 <img src="https://komarev.com/ghpvc/?username=lucelhocristiano&color=blue" alt="Profile views" />
 <br>
 
-<img width=60% src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=footer"/>
+<img width=50% src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=footer"/>
