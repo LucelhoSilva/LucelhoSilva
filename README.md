@@ -1,9 +1,9 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=header"/>
- 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FFFFFF&size=30&center=true&vCenter=true&width=1300&lines=Olá,+Seja+bem+vindo+!!;Meu+nome+é+Lucelho+Cristiano;Volte+sempre+✌️)](https://git.io/typing-svg)
+<img align="right" height="580cm" src="https://raw.githubusercontent.com/gist/LucelhoCristiano/df9d81949eea719ae943b787cfe1b4b8/raw/68d14ab5cfe10c739ac885f0dcbef0166b5a81b3/githubcard.svg"/>
+<img width=60% src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=header"/>
+
 <div align="center">
-<img height="140" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=dark"/>
-<img height="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=dark"/>
+<img height="120" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=dark"/>
+<img height="120" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=dark"/>
 
 </p>
 <div style="display: inline_block">
@@ -40,5 +40,6 @@
 
 </p>
 <img src="https://komarev.com/ghpvc/?username=lucelhocristiano&color=blue" alt="Profile views" />
+<br>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=footer"/>
+<img width=60% src="https://capsule-render.vercel.app/api?type=waving&color=00bfff&height=120&section=footer"/>
