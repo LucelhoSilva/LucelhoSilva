@@ -12,7 +12,7 @@
 
 - 🧮 I participate in the GELP community (Group of Studies in Logic Programming) <a href="https://www.instagram.com/gelpunacm">Click Here </a>
 
-- 📊 I am very communicative, I find it easy to learn new things, I love solving problems, I work very well in groups.
+- 📊 I am very communicative, I have ease in learn new things, I love solving problems, I work very well in groups.
 
 <br><br>
 <!-- Skills -->
