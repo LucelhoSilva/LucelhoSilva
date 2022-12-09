@@ -51,3 +51,9 @@
  <img align="center" src="https://img.shields.io/badge/-LucelhoCristiano-E4405F?style=flat&logo=instagram&logoColor=white" alt="instagram"/>
 </a>
 </p>
+
+
+<!-- citation -->
+#### _Just one more crazy in love by technology_ !!<img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/zany-face_1f92a.png" height="30px"><img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/face-with-tears-of-joy_1f602.png" height="30">
+
+#### _By: Chorão (CharleiCharlie Brown Jr.) "Mas para quem tem o pensamento forte o impossivel é so questão de opinião"_ <img height="30px" src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/thinking-face_1f914.gif">
