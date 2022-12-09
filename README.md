@@ -38,20 +38,19 @@
 <h2>Contact</h2>
 <p style="background:black">
 <a href="https://www.linkedin.com/in/lucelho-cristiano-b17196239" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/-LucelhoCristiano-0077B5?style=flat&logo=linkedin" alt="Linkedin"/>
+  <img src="https://img.shields.io/badge/-LucelhoCristiano-0077B5?style=flat&logo=linkedin" alt="Linkedin"/>
 </a>
 <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNvwDlxBSwvBFBBrBfWTRLxMfDbvbBWvZXpmhcfjmmZrZKlKTSLrPkSJlVHpvHkDzCkPFL" target="_blank">
- <img align="center" src="https://img.shields.io/badge/-lucelhoCristiano-D14836?style=flat&logo=gmail&logoColor=white" 
+ <img src="https://img.shields.io/badge/-lucelhoCristiano-D14836?style=flat&logo=gmail&logoColor=white" 
  alt="Gmail"/>
 </a>
 <a href="https://contate.me/lucelho" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/-LucelhoCristiano-25D366??style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp"/>  
+  <img src="https://img.shields.io/badge/-LucelhoCristiano-25D366??style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp"/>  
 </a>
 <a href="https://www.instagram.com/lucelhosilva" target="_blank">
- <img align="center" src="https://img.shields.io/badge/-LucelhoCristiano-E4405F?style=flat&logo=instagram&logoColor=white" alt="instagram"/>
+ <i src="https://img.shields.io/badge/-LucelhoCristiano-E4405F?style=flat&logo=instagram&logoColor=white" alt="instagram"><i/>
 </a>
 </p>
-
 
 <!-- citation -->
 #### _By Chorão (CharleiCharlie Brown Jr.): "Mas para quem tem o pensamento forte o impossivel é so questão de opinião"_ <img height="30px" src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/thinking-face_1f914.gif">
