@@ -6,11 +6,11 @@
 
 - 🔥 Studying Full Stack Java (EBAC).
 
-- 🌎 I participate as an instructor in the FavelaWare Project, an initiative aimed at training young programmers, 15 to 22 years.<a href="https://favelaware.animahub.com.br/sobre"> Click Here</a>
+- 🌎 I participate as an instructor in the FavelaWare Project, an initiative aimed at training young programmers, 15 to 22 years.<a href="https://favelaware.animahub.com.br/sobre" target="blank"> Click Here</a>
 
 - 🚀 Curious facts about me: I love listening to music
 
-- 🧮 I participate in the GELP community (Group of Studies in Logic Programming) <a href="https://www.instagram.com/gelpunacm">Click Here </a>
+- 🧮 I participate in the GELP community (Group of Studies in Logic Programming) <a href="https://www.instagram.com/gelpunacm" target="_blank">Click Here </a>
 
 - 📊 I am very communicative, I have ease in learn new things, I love solving problems, I work very well in groups.
 
