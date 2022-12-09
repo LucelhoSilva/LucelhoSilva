@@ -30,8 +30,8 @@
 <br><br>
 <!-- GitHub Analytics-->
 <div align="left">
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=dark"/>
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=dark"/></h1>
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=react"/>
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=react"/></h1>
 
 <br><br>
 <!-- Contact -->
