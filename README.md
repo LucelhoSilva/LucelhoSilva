@@ -2,7 +2,6 @@
 <img align="right" height="580cm" src="https://gist.githubusercontent.com/LucelhoCristiano/df9d81949eea719ae943b787cfe1b4b8/raw/e0e96984213cb159432a496597275cae1af9423b/githubcard.svg"/>
 <h1 align= left>Hi guys <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px">, I'm Lucelho</h1>
 
-<nav> 
 - 👨‍💻 currently studying computer science at UNA university.
 
 - 🔥 Studying Full Stack Java (EBAC).
@@ -14,7 +13,6 @@
 - 🧮 I participate in the GELP community (Group of Studies in Logic Programming) <a href="https://www.instagram.com/gelpunacm" target="_blank">Click Here </a>
 
 - 📊 I am very communicative, I have ease in learn new things, I love solving problems, I work very well in groups.
-</nav>
 
 <br><br>
 <!-- Skills -->
