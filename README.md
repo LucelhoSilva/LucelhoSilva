@@ -27,6 +27,14 @@
 <code><img width="40px" src="https://i.imgur.com/LMX3yhx.png" title = "Visual Studio Code"/></code>
 <code><img width="35px" src="https://i.imgur.com/apbViDM.png" title = "Apache NetBeans"/></code>
 
+<!-- Analitycs -->
+ <div align="center">
+  <a href="https://github.com/lucelhocristiano">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=react"/>
+</div>
+
+
 <br><br>
 <!-- Contact -->
 <h2>Contact</h2>
