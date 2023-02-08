@@ -31,8 +31,8 @@
 <h2>Analytics:</h2>
  <div align="left">
   <a href="https://github.com/lucelhocristiano">
-  <img height="140em" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
-  <img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=react"/>
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=react&include_all_commits=true&count_private=true"/>
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=react"/>
 </div>
 
 
