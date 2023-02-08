@@ -16,7 +16,7 @@
 
 <br><br>
 <!-- Skills -->
-<h2 align="left"> Languages and IDE : <img src="https://em-content.zobj.net/source/microsoft-teams/337/man-technologist_1f468-200d-1f4bb.png" width="70px"> </h2>
+<h2 align="left"> Languages and IDE : <img src="https://em-content.zobj.net/source/microsoft-teams/337/man-technologist_1f468-200d-1f4bb.png" width="55px"> </h2>
 
 <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" title = "Java"/></code>
 <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" title = "HTML5"/></code>
@@ -38,7 +38,7 @@
 
 <br><br>
 <!-- Contact -->
-<h2>Contact: <img src="https://em-content.zobj.net/source/microsoft-teams/337/telephone-receiver_1f4de.png" width="40px"></h2>
+<h2>Contact: <img src="https://em-content.zobj.net/source/microsoft-teams/337/telephone-receiver_1f4de.png" width="25px"></h2>
 <p style="background:black">  
 <a href="https://www.linkedin.com/in/lucelho-cristiano-b17196239" target="_blank">
   <img src="https://img.shields.io/badge/-LucelhoCristiano-0077B5?style=flat&logo=linkedin" alt="Linkedin"/>
