@@ -31,8 +31,8 @@
 <h2>Analytics: <img src="https://em-content.zobj.net/source/microsoft-teams/337/chart-decreasing_1f4c9.png" width="25px"><img src="https://em-content.zobj.net/source/microsoft-teams/337/bar-chart_1f4ca.png" width="25px"></h2>
 <div align="left">
    <a href="https://github.com/lucelhocristiano">
-   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
-   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=github_dark"/>
+   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
+   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=github_dark"/>
 </div>
 
 
