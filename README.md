@@ -10,7 +10,7 @@
 
 - 🚀 Curious facts about me: I love listening to music.
 
-- 🧮 I participate in the GELP community (Group of Studies in Logic Programming) <a href="https://www.instagram.com/gelpunacm" target="_blank">Click Here </a>
+- 🧮 I participate in the GELP community (Group of Studies in Logic Programming). <a href="https://www.instagram.com/gelpunacm" target="_blank">Click Here </a>
 
 - 📊 I am very communicative, I have ease in learn new things, I love solving problems, I work very well in groups.
 
