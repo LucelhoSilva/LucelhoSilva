@@ -27,8 +27,9 @@
 <code><img width="40px" src="https://i.imgur.com/LMX3yhx.png" title = "Visual Studio Code"/></code>
 <code><img width="35px" src="https://i.imgur.com/apbViDM.png" title = "Apache NetBeans"/></code>
 
+<br><br>
 <!-- Analitycs -->
-<h2>Analytics: <img src="https://gifs.eco.br/wp-content/uploads/2022/10/gifs-de-graficos-0.gif" width="50px">
+<h2>Analytics: <img src="https://gifs.eco.br/wp-content/uploads/2022/10/gifs-de-graficos-0.gif" width="50px"> </h2>
 <div align="left">
    <a href="https://github.com/lucelhocristiano">
    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
