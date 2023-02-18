@@ -1,6 +1,6 @@
 <!-- Presentation -->
 <img align="right" height="580cm" src="https://gist.githubusercontent.com/LucelhoCristiano/df9d81949eea719ae943b787cfe1b4b8/raw/e0e96984213cb159432a496597275cae1af9423b/githubcard.svg"/>
-<h1 align= left>Hi guys <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px">, I'm Lucelho</h1>
+<h1 align= left>Hi guys <img src="https://em-content.zobj.net/source/microsoft-teams/337/waving-hand_1f44b.png" width="50px">, I'm Lucelho</h1>
 
 - 👨‍💻 currently studying computer science at UNA university.
 
