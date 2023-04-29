@@ -39,9 +39,6 @@
    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
    <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=github_dark"/>
 </div>
-
-
-           https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg
           
 <br><br>
 <!-- Contact -->
