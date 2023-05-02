@@ -36,8 +36,8 @@
 <h2>Analytics: <img src="https://gifs.eco.br/wp-content/uploads/2022/10/gifs-de-graficos-0.gif" width="50px"> </h2>
 <div align="left">
    <a href="https://github.com/lucelhocristiano">
-   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=lucelhocristiano&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true"/>
-   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhocristiano&layout=compact&langs_count=7&theme=github_dark"/>
+   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=LucelhoCristiano&show_icons=true&theme=react&count_private=true"/>
+   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucelhoCristiano&show_icons=true&theme=react&count_private=true&layout=compact"/>
 </div>
           
 <br><br>
