@@ -8,7 +8,7 @@
 
 - 🌎 I participate as an instructor in the FavelaWare Project, an initiative aimed at training young programmers, 15 to 22 years.<a href="https://favelaware.animahub.com.br/sobre" target="blank"> Click Here</a>
 
-- 🚀 Curious facts about me: I love listening to music.
+- 🚀 Curious facts about me: I love listening to music and films.
 
 - 🧮 I participate in the GELP community (Group of Studies in Logic Programming). <a href="https://www.instagram.com/gelpunacm" target="_blank">Click Here </a>
 
