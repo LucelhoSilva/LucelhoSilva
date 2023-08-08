@@ -2,17 +2,17 @@
 <img align="right" height="580cm" src="https://gist.githubusercontent.com/LucelhoCristiano/df9d81949eea719ae943b787cfe1b4b8/raw/e0e96984213cb159432a496597275cae1af9423b/githubcard.svg"/>
 <h1 align= left>Hi guys <img src="https://em-content.zobj.net/source/microsoft-teams/337/waving-hand_1f44b.png" width="50px">, I'm Lucelho</h1>
 
-- 🎓 I am studying Computer Science at UNA University.
+- 🎓 I'm studying Computer Science at UNA University.
 
-- 📚 Taking the Full Stack Java (EBAC) course.
+- 📚 I'm taking the Full Stack Java (EBAC) course.
 
-- 👨‍🏫 I participated as an instructor in the FavelaWare Project, an initiative aimed at training young programmers, aged 15 to 22 years.<a href="https://favelaware.animahub.com.br/sobre" target="blank"> Click Here</a>
+- 👨‍🏫 I participated as an instructor in the FavelaWare Project, an initiative aimed at training young programmers aged 15 to 22 years.<a href="https://favelaware.animahub.com.br/sobre" target="blank"> Click Here</a>
 
-- 🚀 Curious facts about me: I love listening to music and films.
+- 🚀 Curious facts about me: I love listening to music and watching films.
+  
+- 💼 I work at Cidade Administrativa in the State General Ombudsman's Office. <a href="https://www.ouvidoriageral.mg.gov.br/" target="_blank"> Click here</a>.
 
-- 💼 I'm Work at Cidade Administrativa in the State General Ombudsman's Office. <a href="https://www.ouvidoriageral.mg.gov.br/" target="_blank"> Click here</a>.
-
-- 📊 I am very communicative, I have ease in learn new things, I love solving problems, I work very well in groups.
+- 📊 I'm very communicative; I have ease in learning new things. I love solving problems and I work very well in groups.
 
 <br><br> 
           
