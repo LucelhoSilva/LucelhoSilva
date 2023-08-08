@@ -2,15 +2,15 @@
 <img align="right" height="580cm" src="https://gist.githubusercontent.com/LucelhoCristiano/df9d81949eea719ae943b787cfe1b4b8/raw/e0e96984213cb159432a496597275cae1af9423b/githubcard.svg"/>
 <h1 align= left>Hi guys <img src="https://em-content.zobj.net/source/microsoft-teams/337/waving-hand_1f44b.png" width="50px">, I'm Lucelho</h1>
 
-- 👨‍💻 currently studying computer science at UNA university.
+- 🎓 I am studying Computer Science at UNA University.
 
-- 🔥 Studying Full Stack Java (EBAC).
+- 📚 Taking the Full Stack Java (EBAC) course.
 
-- 🌎 I participate as an instructor in the FavelaWare Project, an initiative aimed at training young programmers, 15 to 22 years.<a href="https://favelaware.animahub.com.br/sobre" target="blank"> Click Here</a>
+- 👨‍🏫 I participated as an instructor in the FavelaWare Project, an initiative aimed at training young programmers, aged 15 to 22 years.<a href="https://favelaware.animahub.com.br/sobre" target="blank"> Click Here</a>
 
 - 🚀 Curious facts about me: I love listening to music and films.
 
-- 🧮 I participate in the GELP community (Group of Studies in Logic Programming). <a href="https://www.instagram.com/gelpunacm" target="_blank">Click Here </a>
+- 💼 I'm Work at Cidade Administrativa in the State General Ombudsman's Office. <a href="https://www.ouvidoriageral.mg.gov.br/" target="_blank"> Click here</a>.
 
 - 📊 I am very communicative, I have ease in learn new things, I love solving problems, I work very well in groups.
 
