@@ -37,7 +37,7 @@
 <div align="left">
    <a href="https://github.com/lucelhocristiano">
    <img height="150em" src="https://github-readme-stats.vercel.app/api?username=LucelhoCristiano&show_icons=true&theme=react&count_private=true"/>
-   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucelhoCristiano&show_icons=true&theme=react&count_private=true&layout=compact"/>
+   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucelhoCristiano&show_icons=true&theme=react&layout=compact&count_private=true"/>
 </div>
           
 <br><br>
