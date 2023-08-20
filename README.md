@@ -1,5 +1,5 @@
 <!-- Presentation -->
-<img align="right" height="580cm" src="https://gist.githubusercontent.com/LucelhoSilva/df9d81949eea719ae943b787cfe1b4b8/raw/e0e96984213cb159432a496597275cae1af9423b/githubcard.svg"/>
+<img align="right" height="580cm" src="https://raw.githubusercontent.com/gist/LucelhoSilva/fe88672db1688c86ad29b8e32f22189e/raw/a49244340686709706b5adda959153c96550fa89/githubcard.svg"/>
 <h1 align= left>Hi guys <img src="https://em-content.zobj.net/source/microsoft-teams/337/waving-hand_1f44b.png" width="50px">, I'm Lucelho</h1>
 
 - 🎓 I'm studying Computer Science at UNA University.
@@ -60,4 +60,4 @@
 </p>
 
 <!-- citation -->
-#### _By Chorão (CharleiCharlie Brown Jr.): "Mas para quem tem o pensamento forte o impossivel é so questão de opinião"_ <img height="30px" src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/thinking-face_1f914.gif">
+#### _By Chorão (Charlie Brown Jr.): "Mas para quem tem o pensamento forte o impossivel é so questão de opinião"_ <img height="30px" src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/thinking-face_1f914.gif">
