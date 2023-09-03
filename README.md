@@ -46,17 +46,17 @@
 <h2>Contact: <img src="https://em-content.zobj.net/source/microsoft-teams/337/telephone-receiver_1f4de.png" width="35px"></h2>
 <p style="background:black">  
 <a href="https://www.linkedin.com/in/lucelho-cristiano-b17196239" target="_blank">
-  <img src="https://img.shields.io/badge/-LucelhoCristiano-0077B5?style=flat&logo=linkedin" alt="Linkedin"/>
+  <img src="https://img.shields.io/badge/-LucelhoCristiano-0077B5?style=flat&logo=linkedin" alt="Linkedin" targert="_blank"/>
 </a>  
 <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvpZxJQCPsRqlWvPZhNllfhVsgmTVLGBmXFPVsTSFHDppNDdxRhkWlqjvCCdkWglHGXtmg" target="_blank">
  <img src="https://img.shields.io/badge/-lucelhoCristiano-D14836?style=flat&logo=gmail&logoColor=white" 
- alt="Gmail"/>
+ alt="Gmail" targert="_blank"/>
 </a>  
 <a href="https://contate.me/lucelho" target="_blank">
-  <img src="https://img.shields.io/badge/-LucelhoCristiano-25D366??style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp"/>  
+  <img src="https://img.shields.io/badge/-LucelhoCristiano-25D366??style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp" targert="_blank"/>  
 </a>  
 <a href="https://www.instagram.com/lucelhosilva" target="_blank">
- <img src="https://img.shields.io/badge/-LucelhoCristiano-E4405F?style=flat&logo=instagram&logoColor=white" alt="instagram"/>
+ <img src="https://img.shields.io/badge/-LucelhoCristiano-E4405F?style=flat&logo=instagram&logoColor=white" alt="instagram" targert="_blank"/>
 </a>
 </p>
 
