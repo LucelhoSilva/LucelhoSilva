@@ -27,6 +27,7 @@
 <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg"  title = "My SQL"/></code>
 <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title = "Git"/></code>
 <code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" title = "GitHub"/></code>
+<code><img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title = "Figma"/></code>
 
 <br><br>
 
@@ -42,7 +43,7 @@
 <br><br>
 <!-- Contact -->
 <h2>Contact: <img src="https://em-content.zobj.net/source/microsoft-teams/337/telephone-receiver_1f4de.png" width="30px"></h2> 
-<a href="https://www.linkedin.com/in/lucelho-cristiano-b17196240">
+<a href="https://www.linkedin.com/in/lucelho-silva-b17196239/">
   <img src="https://img.shields.io/badge/-LucelhoCristiano-0077B5?style=flat&logo=linkedin" alt="Linkedin"/>
 </a>  
 <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvpZxJQCPsRqlWvPZhNllfhVsgmTVLGBmXFPVsTSFHDppNDdxRhkWlqjvCCdkWglHGXtmg">
