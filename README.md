@@ -37,7 +37,7 @@
    <a href="https://github.com/lucelhocristiano">
    <img height="180rem" src="https://github-readme-stats-lucelhosilva.vercel.app/api?username=lucelhosilva&show_icons=true&include_all_commits=true&theme=react" alt=lucelho github stats"/>
    
-   <img height="180rem" src="https://github-readme-stats-lucelhosilva.vercel.app/api/top-langs/?username=lucelhosilva&show_icons=true&include_all_commits=true&theme=react&layout=compact&langs_count=6" alt="lucelho github stats"/>
+   <img height="180rem" src="https://github-readme-stats-lucelhosilva.vercel.app/api/top-langs/?username=lucelhosilva&show_icons=true&include_all_commits=true&theme=react&layout=compact&langs_count=8" alt="lucelho github stats"/>
 </div>
      
 <br><br>
