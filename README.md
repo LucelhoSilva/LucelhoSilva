@@ -55,8 +55,8 @@ Currently deepening knowledge in:
 <h2>Analytics: <img src="https://gifs.eco.br/wp-content/uploads/2022/10/gifs-de-graficos-0.gif" width="35px"> </h2>
 <div align="left">
    <a href="https://github.com/lucelhocristiano">
-   <img height="180rem" src="https://github-readme-stats-lucelhosilva.vercel.app/api?username=lucelhosilva&show_icons=true&theme=react&count_private=true" alt="lucelho github stats"/>    
-   <img height="180rem" src="https://github-readme-stats-lucelhosilva.vercel.app/api/top-langs/?username=lucelhosilva&count_private=true&show_icons=true&theme=react&layout=compact&langs_count=8" alt="lucelho github stats"/>   
+   <img height="180rem" src="https://github-readme-stats.vercel.app/api?username=lucelhosilva&show_icons=true&theme=react&count_private=true" alt="lucelho github stats"/>    
+   <img height="180rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucelhosilva&count_private=true&show_icons=true&theme=react&layout=compact&langs_count=8" alt="lucelho github stats"/>   
 </div>
      
 <br><br>
