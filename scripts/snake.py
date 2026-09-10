@@ -16,11 +16,11 @@ from collections import deque
 from xml.sax.saxutils import escape
 
 # Animação
-STEP = 0.09          # segundos por casa
+STEP = 0.15          # segundos por casa
 SPACING = STEP / 2   # dois gomos por casa: o corpo fica contínuo
-START_LEN = 3        # casas ocupadas no início
+START_LEN = 4        # casas ocupadas no início (o logo já tem corpo embaixo desde a entrada)
 MAX_LEN = 28         # casas ocupadas depois de comer o último bloco
-PAUSE = 1.5          # segundos com o tabuleiro vazio antes de recomeçar
+PAUSE = 2.0          # segundos com o tabuleiro vazio antes de recomeçar
 ENTRY_ROW = 3        # linha por onde a cobrinha entra
 
 # Projeção 3D: colunas para a direita, linhas recuando para trás (direita e para cima), altura para cima
@@ -30,15 +30,42 @@ DX, DY = 6.0, 12.0            # recuo de cada linha
 GAP = 0.12                    # folga entre blocos (fração da casa)
 HEIGHTS = [2, 6, 10, 14, 19]  # altura por nível; 0 é a lajota vazia
 SNAKE_Z = 8                   # altura do centro da cobrinha acima do chão
+LIGHT = (0.03, -0.012)        # sombra dos blocos: deslocamento no chão por px de altura (coluna, linha)
 
+# Logo da Elkys viajando no corpo, logo atrás da cabeça
+LOGO_LAG = 4         # centro do logo, em gomos atrás da cabeça (0 é a cabeça)
+LOGO_HEIGHT = 24     # altura do hexágono (px)
+LOGO_PURPLE = "#480388"
+# Logo oficial vetorizado: hexágono e letreiro "e\kys.", numa escala em que o letreiro tem 240 de largura
+HEXAGON = (
+    "M-4 -138 6 -138 15 -135 106 -98 114 -94 119 -91 123 -87 127 -83 131 -77 134 -72 136 -66 138 -61 138 -53 138 48 "
+    "138 56 136 62 133 68 129 76 125 80 121 84 116 87 109 91 15 130 8 132 -1 133 -10 132 -19 129 -108 92 -118 87 "
+    "-123 84 -128 79 -134 70 -137 64 -139 59 -140 48 -140 -53 -140 -61 -138 -68 -134 -75 -131 -81 -123 -89 -118 -93 "
+    "-112 -96 -19 -135 -12 -137Z"
+)
+WORDMARK = (
+    "M-72 -40 -60 -40 -43 20 -43 21 -54 21 -54 21ZM-34 -40 -22 -40 -22 -3 -5 -24 7 -24 6 -23 -8 -4 10 20 11 21 -2 21 "
+    "-17 0 -18 0 -22 0 -22 21 -34 21ZM-99 -26 -94 -26 -90 -26 -86 -24 -82 -22 -78 -18 -77 -16 -75 -11 -74 -6 -74 1 "
+    "-109 2 -107 6 -105 9 -103 12 -99 13 -95 13 -90 12 -87 10 -86 7 -75 7 -76 12 -80 18 -86 21 -92 23 -98 23 -102 23 "
+    "-106 21 -111 19 -114 16 -117 12 -119 7 -120 2 -120 -4 -119 -8 -118 -13 -115 -18 -111 -22 -108 -24 -103 -26ZM75 -26 "
+    "82 -26 87 -25 90 -24 95 -21 97 -18 98 -15 98 -11 88 -11 86 -14 84 -16 82 -17 78 -17 74 -16 72 -15 71 -13 72 -10 "
+    "73 -8 77 -7 86 -6 91 -4 96 -1 99 2 100 6 100 9 98 14 96 17 93 20 88 22 82 23 77 23 69 21 65 20 63 17 61 15 59 11 "
+    "59 8 59 8 69 8 70 10 73 12 77 14 80 14 85 13 88 10 89 7 87 5 84 3 73 2 68 0 63 -3 61 -7 60 -10 60 -14 62 -18 "
+    "63 -21 68 -24ZM10 -25 22 -25 33 9 34 11 35 11 44 -25 56 -25 41 28 39 32 37 35 35 37 32 38 25 40 15 39 15 30 15 29 "
+    "25 29 28 28 31 26 33 21 25 20ZM-99 -16 -94 -16 -90 -15 -87 -11 -85 -6 -108 -6 -107 -10 -105 -13 -102 -15ZM107 8 "
+    "120 8 120 22 107 22 107 21 107 8Z"
+)
+
+# Blocos numa rampa roxa com o #472680 da Elkys numa das pontas (mesma luminosidade dos verdes do GitHub)
+# e cobrinha no ciano de destaque da marca, para ela não sumir em cima dos blocos roxos.
 THEMES = {
     "github-snake.svg": {
-        "id": "l", "empty": "#ebedf0", "levels": ["#9be9a8", "#40c463", "#30a14e", "#216e39"],
-        "head": "#7C3AED", "tail": "#A78BFA", "pupil": "#1f2328", "shadow": 0.18,
+        "id": "l", "empty": "#ebedf0", "levels": ["#D0C2FE", "#AC8BFE", "#844CE6", "#472680"],
+        "head": "#128181", "tail": "#44D6D5", "pupil": "#1f2328", "shadow": 0.22, "block_shadow": 0.13,
     },
     "github-snake-dark.svg": {
-        "id": "d", "empty": "#21262d", "levels": ["#0e4429", "#006d32", "#26a641", "#39d353"],
-        "head": "#C084FC", "tail": "#7C3AED", "pupil": "#0d1117", "shadow": 0.45,
+        "id": "d", "empty": "#21262d", "levels": ["#472680", "#6D3AC2", "#9A6CF8", "#C3AFFF"],
+        "head": "#4DE6E6", "tail": "#128181", "pupil": "#0d1117", "shadow": 0.5, "block_shadow": 0.38,
     },
 }
 LEVELS = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2, "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}
@@ -205,17 +232,62 @@ def project(u, v, z=0.0):
     return u * CW + (ROWS - v) * DX, v * DY - z
 
 
-def block(level, top):
+def hull(points):
+    """Fecho convexo de pontos 2D (cadeia monótona), usado na sombra dos blocos."""
+    pts = sorted(set(points))
+    cross = lambda o, a, b: (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0])
+    lower, upper = [], []
+    for q in pts:
+        while len(lower) > 1 and cross(lower[-2], lower[-1], q) <= 0:
+            lower.pop()
+        lower.append(q)
+    for q in reversed(pts):
+        while len(upper) > 1 and cross(upper[-2], upper[-1], q) <= 0:
+            upper.pop()
+        upper.append(q)
+    return lower[:-1] + upper[:-1]
+
+
+def block_defs(level, top, p):
+    """Degradês das três faces de um nível: topo mais claro à esquerda, laterais escurecendo para baixo."""
+    grad = lambda name, a, b, down: (
+        f'<linearGradient id="{p}g{level}{name}" x1="0" y1="0" x2="{0 if down else 1}" y2="{1 if down else 0}">'
+        f'<stop offset="0" stop-color="{a}"/><stop offset="1" stop-color="{b}"/></linearGradient>')
+    return (grad("t", mix(top, "#FFFFFF", 0.16), top, False)
+            + grad("f", shade(top, 0.82), shade(top, 0.68), True)
+            + grad("r", shade(top, 0.62), shade(top, 0.48), True))
+
+
+def block(level, top, p, shadow):
     """Bloco em coordenadas locais, com origem no canto frontal esquerdo da base.
 
-    Luz vindo de cima e da esquerda: topo claro, frente média e lateral direita mais escura.
+    Luz vindo de cima, da frente e da esquerda: topo claro, frente média e lateral direita mais escura,
+    um fio de luz nas arestas iluminadas e a sombra projetada no chão, para a direita e para trás.
     """
     size, h = 1 - 2 * GAP, HEIGHTS[level]
     offset = lambda du, dv, z: (du * CW - dv * DX, dv * DY - z)
-    face = lambda pts, fill: '<polygon points="%s" fill="%s"/>' % (" ".join("%.1f,%.1f" % offset(*p) for p in pts), fill)
-    return (face([(0, 0, 0), (size, 0, 0), (size, 0, h), (0, 0, h)], shade(top, 0.8))
-            + face([(size, 0, 0), (size, -size, 0), (size, -size, h), (size, 0, h)], shade(top, 0.64))
-            + face([(0, 0, h), (size, 0, h), (size, -size, h), (0, -size, h)], top))
+    pts = lambda seq: " ".join("%.1f,%.1f" % q for q in seq)
+    face = lambda seq, fill: f'<polygon points="{pts(offset(*q) for q in seq)}" fill="{fill}"/>'
+    base = [(0, 0, 0), (size, 0, 0), (size, -size, 0), (0, -size, 0)]
+    out = ""
+    if shadow:
+        cast = [(u + LIGHT[0] * h, v + LIGHT[1] * h, 0) for u, v, _ in base]
+        out += f'<polygon points="{pts(hull([offset(*q) for q in base + cast]))}" fill="#000000" fill-opacity="{shadow}"/>'
+    out += (face([(0, 0, 0), (size, 0, 0), (size, 0, h), (0, 0, h)], f"url(#{p}g{level}f)")
+            + face([(size, 0, 0), (size, -size, 0), (size, -size, h), (size, 0, h)], f"url(#{p}g{level}r)")
+            + face([(0, 0, h), (size, 0, h), (size, -size, h), (0, -size, h)], f"url(#{p}g{level}t)"))
+    if level:
+        out += (f'<polyline points="{pts(offset(*q) for q in [(0, -size, h), (0, 0, h), (size, 0, h)])}" '
+                'fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="0.6" stroke-linejoin="round"/>')
+    return out
+
+
+def bead(radius, color, p):
+    """Gomo esférico: cor base, sombreamento difuso e um brilho especular no alto, à esquerda."""
+    r, cx, cy = radius, -0.34 * radius, -0.4 * radius
+    return (f'<circle r="{r:.1f}" fill="{color}"/><circle r="{r:.1f}" fill="url(#{p}shine)"/>'
+            f'<ellipse cx="{cx:.1f}" cy="{cy:.1f}" rx="{0.3 * r:.1f}" ry="{0.18 * r:.1f}" '
+            f'transform="rotate(-35 {cx:.1f} {cy:.1f})" fill="url(#{p}spec)"/>')
 
 
 def route_path(path, z):
@@ -238,6 +310,7 @@ def render(cells, path, eaten_at, theme):
     frac = lambda seconds: f"{min(max(seconds, 0.001) / cycle, 1):.5f}"
     dur = f'dur="{cycle:.2f}s" repeatCount="indefinite"'
     use = lambda ref: f'href="#{p}{ref}" xlink:href="#{p}{ref}"'
+    pupil = theme["pupil"]
 
     # Tabuleiro: lajotas vazias embaixo de tudo e blocos por cima, sempre de trás para a frente.
     tiles, blocks = [], []
@@ -267,47 +340,73 @@ def render(cells, path, eaten_at, theme):
                 f'values="0;1" keyTimes="0;{frac(first * STEP - delay)}"/>')
 
     gomos = 2 * MAX_LEN - 1
+    radius_of = lambda j: 8.4 if j == 0 else 6.6 - 2.2 * j / (gomos - 1)
+
     shadows, body = [], []
     for j in range(gomos - 1, -1, -1):  # da cauda para a cabeça, para a cabeça ficar por cima
-        k = j / (gomos - 1)
-        radius = 8.0 if j == 0 else 6.6 - 2.2 * k
-        delay = j * SPACING
+        radius, delay = radius_of(j), j * SPACING
         show = appear(j, delay)
         shadows.append(
-            f'<ellipse rx="{radius * 1.1:.1f}" ry="{radius * 0.5:.1f}" fill="#000000" fill-opacity="{theme["shadow"]}" '
-            f'opacity="0">{motion(delay, "shadow")}{show}</ellipse>'
+            f'<ellipse rx="{radius * 1.3:.1f}" ry="{radius * 0.58:.1f}" fill="url(#{p}sg)" opacity="0">'
+            f'{motion(delay, "shadow")}{show}</ellipse>'
         )
         if j:
-            body.append(
-                f'<g opacity="0"><circle r="{radius:.1f}" fill="{mix(theme["head"], theme["tail"], k)}"/>'
-                f'<circle r="{radius:.1f}" fill="url(#{p}shine)"/>{motion(delay)}{show}</g>'
-            )
+            look = bead(radius, mix(theme["head"], theme["tail"], j / (gomos - 1)), p)
+            body.append(f'<g opacity="0">{look}{motion(delay)}{show}</g>')
+
+    # Logo oficial da Elkys viajando no corpo, logo atrás da cabeça, sempre de pé para continuar legível:
+    # sombra macia embaixo, filete branco em volta e um brilho suave no hexágono.
+    scale, lag = LOGO_HEIGHT / 271, LOGO_LAG * SPACING  # o hexágono tem 271 unidades de altura
+    logo = f'transform="scale({scale:.4f}) translate(1 2.5)"'  # centro do hexágono no ponto do corpo
+    label = (
+        f'<g opacity="0"><g {logo}><path d="{HEXAGON}" transform="translate(6 9)" fill="#000000" fill-opacity="0.22"/>'
+        f'<path d="{HEXAGON}" fill="{LOGO_PURPLE}" stroke="#FFFFFF" stroke-width="{1.3 / scale:.1f}" stroke-linejoin="round" '
+        f'paint-order="stroke"/><path d="{HEXAGON}" fill="url(#{p}gloss)"/><path d="{WORDMARK}" fill="#FFFFFF" fill-rule="evenodd"/></g>'
+        f'{motion(lag)}<set attributeName="opacity" to="1" begin="{lag:.3f}s"/></g>'
+    )
+
+    # Cabeça: gomo maior, olhos com brilho, um sorriso e a língua que dá uma olhadinha de vez em quando.
     head = (
-        f'<g opacity="0"><circle r="8" fill="{theme["head"]}"/><circle r="8" fill="url(#{p}shine)"/>{motion(0)}{appear(0, 0)}</g>'
-        f'<g opacity="0"><circle cx="3.1" cy="-3.4" r="2.5" fill="#ffffff"/><circle cx="3.1" cy="3.4" r="2.5" fill="#ffffff"/>'
-        f'<circle cx="4" cy="-3.4" r="1.25" fill="{theme["pupil"]}"/><circle cx="4" cy="3.4" r="1.25" fill="{theme["pupil"]}"/>'
-        f'<circle cx="3.4" cy="-4.1" r="0.6" fill="#ffffff"/><circle cx="3.4" cy="2.7" r="0.6" fill="#ffffff"/>'
+        f'<g opacity="0">{bead(radius_of(0), theme["head"], p)}{motion(0)}{appear(0, 0)}</g>'
+        '<g opacity="0"><circle cx="3.2" cy="-3.5" r="2.6" fill="#ffffff"/><circle cx="3.2" cy="3.5" r="2.6" fill="#ffffff"/>'
+        f'<circle cx="4.1" cy="-3.5" r="1.3" fill="{pupil}"/><circle cx="4.1" cy="3.5" r="1.3" fill="{pupil}"/>'
+        '<circle cx="3.5" cy="-4.2" r="0.6" fill="#ffffff"/><circle cx="3.5" cy="2.8" r="0.6" fill="#ffffff"/>'
+        f'<path d="M6.8,-1.6 Q8.6,0 6.8,1.6" fill="none" stroke="{pupil}" stroke-opacity="0.55" stroke-width="0.7" stroke-linecap="round"/>'
+        '<path d="M8.4,0 L11.8,0 M11.8,0 L13.1,-1.1 M11.8,0 L13.1,1.1" fill="none" stroke="#F06292" stroke-width="1" '
+        'stroke-linecap="round" opacity="0"><animate attributeName="opacity" calcMode="discrete" dur="3.3s" repeatCount="indefinite" '
+        'values="0;1;0;1;0" keyTimes="0;0.78;0.84;0.88;0.94"/></path>'
         f'{motion(0, rotate=True)}{appear(0, 0)}</g>'
     )
 
     left, right = -12, columns * CW + ROWS * DX + 12
-    top, bottom = -(HEIGHTS[-1] + 16), ROWS * DY + 10
+    top, bottom = -(HEIGHTS[-1] + 18), ROWS * DY + 10
     defs = (
-        f'<radialGradient id="{p}shine" cx="0.35" cy="0.3" r="0.75">'
-        '<stop offset="0" stop-color="#ffffff" stop-opacity="0.65"/><stop offset="0.35" stop-color="#ffffff" stop-opacity="0.12"/>'
-        '<stop offset="1" stop-color="#000000" stop-opacity="0.3"/></radialGradient>'
-        f'<g id="{p}t">{block(0, theme["empty"])}</g>'
-        + "".join(f'<g id="{p}b{level}">{block(level, color)}</g>' for level, color in enumerate(theme["levels"], start=1))
+        f'<radialGradient id="{p}shine" cx="0.36" cy="0.32" r="0.72">'
+        '<stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/><stop offset="0.3" stop-color="#ffffff" stop-opacity="0.16"/>'
+        '<stop offset="0.72" stop-color="#000000" stop-opacity="0.06"/><stop offset="1" stop-color="#000000" stop-opacity="0.45"/>'
+        '</radialGradient>'
+        f'<radialGradient id="{p}spec"><stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>'
+        '<stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>'
+        f'<linearGradient id="{p}gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>'
+        '<stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.12"/></linearGradient>'
+        f'<radialGradient id="{p}sg"><stop offset="0" stop-color="#000000" stop-opacity="{theme["shadow"]}"/>'
+        f'<stop offset="0.55" stop-color="#000000" stop-opacity="{theme["shadow"] * 0.7:.2f}"/>'
+        '<stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>'
+        + "".join(block_defs(level, color, p) for level, color in enumerate([theme["empty"]] + theme["levels"]))
+        + f'<g id="{p}t">{block(0, theme["empty"], p, 0)}</g>'
+        + "".join(f'<g id="{p}b{level}">{block(level, color, p, theme["block_shadow"])}</g>'
+                  for level, color in enumerate(theme["levels"], start=1))
         + f'<path id="{p}route" d="{route_path(path, SNAKE_Z)}"/><path id="{p}shadow" d="{route_path(path, 0)}"/>'
     )
     title = "Cobrinha 3D comendo o gráfico de contribuições"
-    desc = f"A cobrinha percorre {len(eaten_at)} dias com contribuições do último ano e cresce de {START_LEN} para {MAX_LEN} casas."
+    desc = (f"A cobrinha, levando o logo da Elkys no corpo, percorre {len(eaten_at)} dias com contribuições do último ano "
+            f"e cresce de {START_LEN} para {MAX_LEN} casas.")
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
         f'viewBox="{left} {top} {right - left:.0f} {bottom - top:.0f}" width="{right - left:.0f}" height="{bottom - top:.0f}" '
         f'role="img" aria-labelledby="{p}title {p}desc"><title id="{p}title">{escape(title)}</title><desc id="{p}desc">{escape(desc)}</desc>'
         f'<defs>{defs}</defs><g>{"".join(tiles)}</g><g>{"".join(blocks)}</g>'
-        f'<g>{"".join(shadows)}</g><g>{"".join(body)}{head}</g></svg>\n'
+        f'<g>{"".join(shadows)}</g><g>{"".join(body)}{label}{head}</g></svg>\n'
     )
 
 
