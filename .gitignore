@@ -1,0 +1,3 @@
+# arquivos gerados localmente pelo scripts/snake.py
+__pycache__/
+dist/
